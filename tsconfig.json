@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "paths":{"@/*":["./src/*"], "@appTypes/*":["./src/types/*"]},
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
