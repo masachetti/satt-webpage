@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/satt-webpage/",
   plugins: [vue()],
   resolve: {
     alias: [
