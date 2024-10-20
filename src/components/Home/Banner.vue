@@ -2,12 +2,11 @@
 import { CircleArrowRight, CircleArrowLeft } from "lucide-vue-next";
 import Button from "@/components/common/Button.vue";
 import { ref } from "vue";
+import Banner1 from "@/assets/banners/banner1.jpg";
+import Banner2 from "@/assets/banners/banner2.jpg";
+import Banner3 from "@/assets/banners/banner3.jpg";
 
-const images = [
-  "src/assets/banners/banner1.jpg",
-  "src/assets/banners/banner2.jpg",
-  "src/assets/banners/banner3.jpg",
-];
+const images = [Banner1, Banner2, Banner3];
 const texts = [
   ["sempre", "conectado"],
   ["assista a séries e filmes sem interrupção"],
