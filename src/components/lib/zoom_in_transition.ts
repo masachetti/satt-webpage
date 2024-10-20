@@ -2,7 +2,7 @@ import { useElementVisibility } from "@vueuse/core";
 import { watch } from "vue";
 
 const vZoomIn = {
-  mounted: (el: HTMLElement, binding, vnode) => {
+  mounted: (el: HTMLElement) => {
     const targetIsVisible = useElementVisibility(el);
     el.classList.add(
       "transition-transform",
@@ -18,8 +18,6 @@ const vZoomIn = {
       },
       { once: true }
     );
-    console.log(binding);
-    console.log(vnode);
   },
 };
 

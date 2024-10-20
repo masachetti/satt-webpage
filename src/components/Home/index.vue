@@ -5,8 +5,6 @@ import Banner from "@/components/Home/Banner.vue";
 import PricesSection from "@/components/Home/PricesSection.vue";
 import ContentSection from "@/components/Home/ContentSection.vue";
 import Footer from "@/components/Home/Footer.vue";
-
-import { vZoomIn } from "@/components/lib/zoom_in_transition";
 </script>
 
 <template>

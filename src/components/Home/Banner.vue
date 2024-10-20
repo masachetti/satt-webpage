@@ -64,7 +64,7 @@ const nextSlide = async () => {
         >
           <div class="max-w-[1100px] w-full mx-auto">
             <p
-              v-for="(line, lineIndex) in text"
+              v-for="line in text"
               class="uppercase text-white font-semibold w-[550px] leading-none"
             >
               {{ line }}
