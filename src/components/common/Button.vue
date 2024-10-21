@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { cn } from "@/components/lib/cn";
+import { cn } from "@/lib/utils";
 import { ClassValue } from "clsx";
 const props = defineProps<{ class?: ClassValue }>();
 </script>

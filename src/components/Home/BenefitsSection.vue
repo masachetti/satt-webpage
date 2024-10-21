@@ -10,7 +10,7 @@ import {
 import { CircleArrowDown } from "lucide-vue-next";
 import Button from "@/components/common/Button.vue";
 import SectionContainer from "@/components/common/SectionContainer.vue";
-import { vZoomIn } from "@/components/lib/zoom_in_transition";
+import { vZoomIn } from "@/lib/zoom_in_transition";
 </script>
 <template>
   <SectionContainer class="relative pb-14">

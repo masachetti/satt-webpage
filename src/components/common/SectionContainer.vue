@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ClassValue } from "clsx";
-import { cn } from "@/components/lib/cn";
+import { cn } from "@/lib/utils";
 
 const props = defineProps<{
   variant?: "default" | "with-background-color";
