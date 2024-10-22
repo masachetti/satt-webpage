@@ -30,7 +30,7 @@ const nextSlide = async () => {
 </script>
 <template>
   <div
-    class="relative top-0 left-0 h-[60vh] w-full overflow-y-hidden overflow-x-hidden flex items-center"
+    class="relative h-[31vw] w-full overflow-y-hidden overflow-x-hidden flex items-center"
   >
     <template v-for="(image, index) in images">
       <Transition name="images">
@@ -38,7 +38,7 @@ const nextSlide = async () => {
           v-if="index === slideIndex"
           :src="image"
           alt="Banner"
-          class="absolute -top-[13vh] left-0 -z-10 h-[100vh] w-full object-cover"
+          class="absolute -z-10 w-full h-auto object-contain"
         />
       </Transition>
     </template>
@@ -87,11 +87,9 @@ const nextSlide = async () => {
 }
 .images-enter-from {
   opacity: 0;
-  @apply scale-50;
 }
 .images-leave-to {
   opacity: 0;
-  @apply scale-125;
 }
 
 .text-enter-active,

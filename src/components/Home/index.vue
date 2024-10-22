@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import BenefitsSection from "@/components/Home/BenefitsSection.vue";
-import Header from "@/components/Home/Header.vue";
+import Header from "@/components/Header/Header.vue";
 import Banner from "@/components/Home/Banner.vue";
 import PricesSection from "@/components/Home/PricesSection.vue";
 import ContentSection from "@/components/Home/ContentSection.vue";
