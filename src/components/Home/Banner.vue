@@ -30,7 +30,7 @@ const nextSlide = async () => {
 </script>
 <template>
   <div
-    class="relative h-[31vw] w-full overflow-y-hidden overflow-x-hidden flex items-center"
+    class="relative h-[31vw] w-full overflow-x-hidden overflow-y-hidden flex items-center"
   >
     <template v-for="(image, index) in images">
       <Transition name="images">
@@ -38,7 +38,7 @@ const nextSlide = async () => {
           v-if="index === slideIndex"
           :src="image"
           alt="Banner"
-          class="absolute -z-10 w-full h-auto object-contain"
+          class="absolute w-full -z-10 h-auto object-contain"
         />
       </Transition>
     </template>
